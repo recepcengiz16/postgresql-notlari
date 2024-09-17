@@ -1,0 +1,1 @@
+PostgreSql öğrenirken aldığım notlar.
