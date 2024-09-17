@@ -1,0 +1,2 @@
+--delete kullanımı
+--delete from musteri where bakiye>4000
