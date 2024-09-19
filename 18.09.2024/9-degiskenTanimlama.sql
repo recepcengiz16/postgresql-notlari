@@ -32,4 +32,13 @@ begin
 	raise notice 'Çarpım: %', carpim;
 	raise notice 'Bölüm: %', bolum;
 end $$
+
+-- tablodan dönen sonucun değişkene atanması
+
+do $$
+declare toplam integer;
+begin
+	toplam:=(select count(*) from dersler);
+	raise notice 'Derslerin kayıt sayısı: %',toplam;
+end $$
 	
