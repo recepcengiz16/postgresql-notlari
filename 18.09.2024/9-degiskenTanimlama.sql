@@ -41,4 +41,4 @@ begin
 	toplam:=(select count(*) from dersler);
 	raise notice 'Derslerin kayıt sayısı: %',toplam;
 end $$
-	
+
