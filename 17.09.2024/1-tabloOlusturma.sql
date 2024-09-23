@@ -2,7 +2,7 @@
 
 -- tablo oluşturma
 -- create table urun (
--- 	id integer primary key not null,
+-- 	id integer primary key not null GENERATED ALWAYS AS IDENTITY, -- bu şekilde de identity oluyor.
 -- 	ad varchar(15) not null,
 -- 	marka varchar(20),
 -- 	stok integer,

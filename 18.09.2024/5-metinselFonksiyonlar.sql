@@ -12,7 +12,7 @@ select concat_ws('-','Günaydın','Recep')
 select left('Merhaba Dünya',3) 
 
 --right: sağdan başlayıp kaç karakter alacağını söylüyor
-select right('Merhaba')
+select right('Merhaba',3)
 
 --length: Girilen parametrenin kaç karakter olduğunu söylüyor.
 select length('Hayat zannettiğin halat; yalnız bulunduğun dakikadır.')
