@@ -5,11 +5,12 @@
 
 
 --PostgreSQL'de sütun veya tablo adları genellikle küçük harflerde saklanır. 
---Ancak, büyük harf, boşluk veya özel karakterler içeren sütun adları tanımlandığında, bu sütunlara erişirken PostgreSQL'de sütun adı çift tırnak (") içine alınmalıdır. 
+--Ancak, büyük harf, boşluk veya özel karakterler içeren sütun adları tanımlandığında, 
+--bu sütunlara erişirken PostgreSQL'de sütun adı çift tırnak (") içine alınmalıdır. 
 --Aksi halde PostgreSQL, sütun adlarını otomatik olarak küçük harfe dönüştürür.
 
 --bolum."fakulteId" -- Büyük harf içerdiği için tırnak içinde
---bolum.fakulteid   -- Çift tırnak olmadan küçük harf olarak kabul edilir
+--bolum.fakulteid   -- Çift tırnak olmadan küçük harf olarak kabul edilir. Çevirdiğinde de bulamasa da hata verir.
 
 -- create view DetaylariGetir 
 -- as

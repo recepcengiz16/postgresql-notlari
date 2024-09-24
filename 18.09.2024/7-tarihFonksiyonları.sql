@@ -18,9 +18,11 @@ select current_time;
 --now: şu anı tarih ve zaman şeklinde veriyor
 select now();
 
---age: iki tarih arasındaki farkı veriyor yıl, ay ve gün bazında verebiliyor. timestamp vermen gerekli
+--age: iki tarih arasındaki farkı veriyor yıl, ay ve gün bazında verebiliyor.
 select age(timestamp '2023-08-10');
---Kodunda timestamp '2023-08-10' ifadesi, belirtilen tarihin saat kısmı olmadan tam tarih ve zaman biçiminde ele alınmasını sağlar. Yani, 10 Ağustos 2023 tarihini tam bir zaman damgası olarak kullanıyorsun. age() fonksiyonu bu zaman damgasını alarak, geçerli tarih ile 10 Ağustos 2023 arasındaki farkı hesaplar.
+--Kodunda timestamp '2023-08-10' ifadesi, belirtilen tarihin saat kısmı olmadan tam tarih ve zaman biçiminde ele alınmasını sağlar. 
+--Yani, 10 Ağustos 2023 tarihini tam bir zaman damgası olarak kullanıyorsun. 
+--age() fonksiyonu bu zaman damgasını alarak, geçerli tarih ile 10 Ağustos 2023 arasındaki farkı hesaplar.
 select ad,tarih,age(now(),tarih) from kitaplar
 SELECT age('2024-09-12', '1990-05-15');
 

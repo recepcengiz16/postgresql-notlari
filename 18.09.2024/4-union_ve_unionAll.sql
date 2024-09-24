@@ -2,6 +2,9 @@
 -- union tabloda birden fazla geçen isimleri de bir kez alıyor, duplicate veri yapmıyor
 -- union all ise duplicate verilere de izin veriyor
 
-select * from a
-union
-select * from b
+--İki farklı veri kaynağını birleştirirken kullanılır. 
+--Örneğin, bir şirkette hem aktif hem de eski çalışanların listesini birleştirip raporlamak istersen:
+
+SELECT isim FROM aktif_calisanlar
+UNION
+SELECT isim FROM eski_calisanlar;

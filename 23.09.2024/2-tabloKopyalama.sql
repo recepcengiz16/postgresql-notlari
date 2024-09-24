@@ -1,6 +1,7 @@
 -- sorgularla tablo kopyalama
 
-create table new_table as table kategoriler -- as table diyerek hangi tabloyu kopyalacak demiş olduk. verileri ile birlikte yeni tabloya atanmış olacak.
+create table new_table as table kategoriler -- as table diyerek hangi tabloyu kopyalacak demiş olduk. 
+--verileri ile birlikte yeni tabloya atanmış olacak.
 
 --select * from new_table
 

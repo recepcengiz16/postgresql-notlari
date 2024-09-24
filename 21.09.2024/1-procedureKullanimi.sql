@@ -28,9 +28,10 @@ language SQL -- sql de diyebiliriz plpgsql de diyebiliriz.
 as $$
 insert into fakulte values(p1,p2); -- istersek begin end içinde de yazabiliriz.
 $$
-select * from fakulte
+
 
 call fakulte_ekle(6,'Besyo');
+
 
 
 

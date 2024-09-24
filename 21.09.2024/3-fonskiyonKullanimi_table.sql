@@ -12,7 +12,7 @@ returns table
 as
 $$
 begin
-	return query --geriye bir soru döndür
+	return query --geriye bir sorgu döndür
 	select id,ad,yazar from kitaplar where ad like param1;
 end
 $$
