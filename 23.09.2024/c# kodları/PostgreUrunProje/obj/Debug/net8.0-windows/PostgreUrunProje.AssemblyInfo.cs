@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostgreUrunProje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71c2cd15463312ec461ecfe85c9db90522229a6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dab65fd37d5eb0f61431898fb9c2c7f1f474235c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostgreUrunProje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostgreUrunProje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
