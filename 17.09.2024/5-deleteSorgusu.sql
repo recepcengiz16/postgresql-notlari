@@ -1,2 +1,2 @@
---delete kullanımı
+--delete kullanımı: tablodan verileri silmek için
 --delete from musteri where bakiye>4000
