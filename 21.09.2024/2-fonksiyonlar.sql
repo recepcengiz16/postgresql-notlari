@@ -10,7 +10,7 @@ declare
 	sonuc integer;
 begin
 	sonuc:= p1+p2;	
-	return sonuc;
+	return sonuc; -- sonuc return edildi
 end
 $$;
 
