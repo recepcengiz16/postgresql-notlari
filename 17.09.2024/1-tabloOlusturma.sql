@@ -10,7 +10,7 @@
 -- )
 
 create table kategori (
-	id integer primary key not null,
+	id integer primary key not null generated always as identity,
 	ad text
 )
 
