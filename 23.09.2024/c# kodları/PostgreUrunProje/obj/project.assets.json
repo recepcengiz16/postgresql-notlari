@@ -227,23 +227,23 @@
   },
   "packageFolders": {
     "C:\\Users\\durak59\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\durak59\\Desktop\\Dersler\\PostgreSQL Dersleri\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
+      "projectUniqueName": "C:\\Users\\durak59\\Desktop\\Ders Notları\\Sql\\Postgresql\\Murat Yücedağ\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
       "projectName": "PostgreUrunProje",
-      "projectPath": "C:\\Users\\durak59\\Desktop\\Dersler\\PostgreSQL Dersleri\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
+      "projectPath": "C:\\Users\\durak59\\Desktop\\Ders Notları\\Sql\\Postgresql\\Murat Yücedağ\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
       "packagesPath": "C:\\Users\\durak59\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\durak59\\Desktop\\Dersler\\PostgreSQL Dersleri\\23.09.2024\\c# kodları\\PostgreUrunProje\\obj\\",
+      "outputPath": "C:\\Users\\durak59\\Desktop\\Ders Notları\\Sql\\Postgresql\\Murat Yücedağ\\23.09.2024\\c# kodları\\PostgreUrunProje\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\durak59\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -251,8 +251,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\DevExpress 22.1\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -305,7 +303,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

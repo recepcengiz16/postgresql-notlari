@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W+ysM0TKbgA=",
+  "dgSpecHash": "w7IKNlLemhc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\durak59\\Desktop\\Dersler\\PostgreSQL Dersleri\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
+  "projectFilePath": "C:\\Users\\durak59\\Desktop\\Ders Notları\\Sql\\Postgresql\\Murat Yücedağ\\23.09.2024\\c# kodları\\PostgreUrunProje\\PostgreUrunProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\durak59\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\durak59\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
