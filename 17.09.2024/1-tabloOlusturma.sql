@@ -1,5 +1,7 @@
 -- yorum satırı yapmak için bu şekilde 
-
+/*
+	bu şekilde de çoklu yorum satırı yaparız.
+*/
 -- tablo oluşturma
 -- create table urun (
 -- 	id integer primary key not null GENERATED ALWAYS AS IDENTITY, -- bu şekilde de identity oluyor.
